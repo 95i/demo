@@ -13,5 +13,6 @@ public class A20211113 {
         System.out.println(y++/--x);
         System.out.println(y++/--x);
 
+
     }
 }
