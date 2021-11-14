@@ -11,5 +11,6 @@ public class A20211113 {
         System.out.println(x>y || !yn);
         System.out.println(y!=++x ? x:y);
         System.out.println(y++/--x);
+        System.out.println(y++/--x);
     }
 }
