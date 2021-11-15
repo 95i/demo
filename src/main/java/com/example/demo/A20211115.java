@@ -4,54 +4,40 @@ import java.util.Scanner;
 
 public class A20211115 {
     public static void main(String[] args) {
-//        int a,b,c,max;
-//        Scanner scanner = new Scanner(System.in);
-//
-//        System.out.print("请输入a");
-//        a = scanner.nextInt();
-//
-//        System.out.print("请输入b");
-//        b = scanner.nextInt();
-//
-//        System.out.print("请输入c");
-//        c = scanner.nextInt();
-//
-//
-//        if (a>b){
-//            max = a;
-//        }else {
-//            System.out.println("");
-//        }
+        int a,b,c,max;
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner c = new Scanner(System.in);
-        System.out.println("请输入3个数");
-        int a = c.nextInt();
-        int b = c.nextInt();
-        int s = c.nextInt();
-        System.out.println(a + "," + b + "," + s);
+        System.out.print("请输入整数a：");
+        a = scanner.nextInt();
 
-        int temp;
-        if (a < b) {//b此时是temp。a是b/
-            temp = a;
-            a = b;
-            b = temp;
+        System.out.print("请输入整数b：");
+        b = scanner.nextInt();
 
+        System.out.print("请输入整数c：");
+        c = scanner.nextInt();
+
+
+        if (a<b){
+            if (b<c){
+                System.out.println(c+","+b+","+a);
+            }else{
+                if (a<c){
+                    System.out.println(b+","+c+","+a);
+                }else {
+                    System.out.println(b+","+a+","+c);
+                }
+            }
+        }else{
+            if(b>c) {
+                System.out.println(a + "," +  b + "," + c);
+            }
+            else {
+                if(a<c) {
+                    System.out.println(c + "," +  a + "," + b);
+                } else {
+                    System.out.println(a + ","+ c + "," + b);
+                }
+            }
         }
-
-        if (a < s) {
-            temp = a;
-            a = s;
-            s = temp;
-
-        }
-        if (b < s) {
-            temp = b;
-            b = s;
-            s = temp;
-        }
-
-        System.out.println("结果：" + a + ">" + b + ">" + s);
-
     }
-
 }

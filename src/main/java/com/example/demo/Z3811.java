@@ -9,6 +9,6 @@ public class Z3811 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("请输入浮点数：");
         a = scanner.nextFloat();
-        System.out.println(a);
+        System.out.println("转整数后：" + (int)a);
     }
 }
