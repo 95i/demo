@@ -8,7 +8,6 @@ public class Z544_1 {
         Scanner scanner = new Scanner(System.in);
         int score = scanner.nextInt();
         int key = score/10;
-        System.out.println(key);
 
         switch (key) {
             case 10:
