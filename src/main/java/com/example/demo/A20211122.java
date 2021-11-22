@@ -12,14 +12,14 @@ public class A20211122 {
         int realNumber = random.nextInt(100)+1;
 
         int yourGuess = 0;
-        System.out.println("输入您的猜测:");
+        System.out.print("输入您的猜测:");
         yourGuess = scanner.nextInt();
         while (yourGuess != realNumber){
             if (yourGuess > realNumber){
-                System.out.println("猜大了再输入你的猜测:");
+                System.out.print("猜大了再输入你的猜测:");
                 yourGuess = scanner.nextInt();
             }else if(yourGuess < realNumber){
-                System.out.println("猜小了再输入你的猜测:");
+                System.out.print("猜小了再输入你的猜测:");
                 yourGuess = scanner.nextInt();
             }
         }
