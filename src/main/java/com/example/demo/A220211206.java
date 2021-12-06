@@ -21,6 +21,5 @@ public class A220211206 {
                 otherCount++;
         }
         System.out.println("Letter=" + letterCount + "    Number=" + numCount + "    Others=" + (otherCount - letterCount));
-
     }
 }
