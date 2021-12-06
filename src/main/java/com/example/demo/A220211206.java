@@ -6,7 +6,7 @@ public class A220211206 {
     public static void main(String[] args) {
         String str;
         Scanner reader = new Scanner(System.in);
-        System.out.print("Please enter string: ");
+        System.out.print("请输入字符: ");
         str = reader.nextLine();
         int i, n = str.length();
         int letterCount = 0, numCount = 0, otherCount = 0;
