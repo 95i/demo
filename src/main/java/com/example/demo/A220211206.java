@@ -20,6 +20,6 @@ public class A220211206 {
             else
                 otherCount++;
         }
-        System.out.println("Letter=" + letterCount + "    Number=" + numCount + "    Others=" + (otherCount - letterCount));
+        System.out.println("英文共有：" + letterCount + " \n数字共有：" + numCount + "\n其他字符共有：" + (otherCount - letterCount));
     }
 }
