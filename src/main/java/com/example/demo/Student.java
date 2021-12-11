@@ -2,7 +2,7 @@ package com.example.demo;
 
 public class Student {
     String name;
-    int age,chinese,math,english;
+    int age, chinese, math, english;
 
     int total() {
         return chinese + math + english;
@@ -19,9 +19,9 @@ public class Student {
         student.english = 60;
         student.math = 60;
         student.chinese = 70;
-        System.out.println(student.name + "\n" + student.age+"岁");
-        System.out.println("三门成绩总和:"+student.total());
-        System.out.println("平均值:"+student.average());
+        System.out.println(student.name + "\n" + student.age + "岁");
+        System.out.println("三门成绩总和:" + student.total());
+        System.out.println("平均值:" + student.average());
     }
 
 }
