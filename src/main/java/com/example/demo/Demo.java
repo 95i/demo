@@ -1,6 +1,9 @@
 package com.example.demo;
 
 public class Demo {
+    public static void main(String[] args) {
+        int [] a = {1,2,3,4};
 
-    public  String a ="adsfaf";
+        System.out.println(a[4]);
+    }
 }
