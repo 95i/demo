@@ -2,10 +2,7 @@ package com.example.demo;
 
 public class Student {
     String name;
-    int age;
-    int chinese;
-    int math;
-    int english;
+    int age,chinese,math,english;
 
     int total() {
         return chinese + math + english;
