@@ -14,23 +14,23 @@ public class Hello {
         zhangsan.chinese = 90;
         zhangsan.zhangsan();
         System.out.println("三门成绩总和:" + zhangsan.total());
-        System.out.println("平均值:" + zhangsan.average());
+        System.out.println("平均值:" + zhangsan.average()+"\n");
 
         lisi.name = "李四";
         lisi.age = 20;
         lisi.english = 80;
-        lisi.math = 30;
+        lisi.math = 40;
         lisi.chinese = 90;
         lisi.lisi();
         System.out.println("三门成绩总和:" + lisi.total());
-        System.out.println("平均值:" + lisi.average());
+        System.out.println("平均值:" + lisi.average()+"\n");
 
         if (lisi.total() < zhangsan.total()) {
             System.out.println(zhangsan.name + "的成绩好");
         } else if (lisi.total() > zhangsan.total()) {
             System.out.println(lisi.name + "的成绩好");
         } else {
-            System.out.println(zhangsan.name + "和" + lisi.name + "的成绩好");
+            System.out.println(zhangsan.name + "和" + lisi.name + "的成绩一样好");
         }
     }
 
